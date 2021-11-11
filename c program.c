@@ -1,16 +1,8 @@
 #include<stdio.h>
 void main()
 {
-	// variables
-	int num1, num2, sum;
-	
-	// initialization
-	num1 = 123;
-	num2 = 456;
-	
-	// calculaion
-	sum = num1+num2;
-	
-	// output
-	printf("%d", sum);
+	int a,b,c,d;
+	printf("enter four numbers");
+	scanf("%d%d%d%d",&a,&b,&c,&d);
+	printf("%d", a*b*c*d);
 }
